@@ -1,0 +1,18 @@
+first run in cmd: 
+ssh-keygen -t ed25519 -C "your email@example.com"
+
+
+
+
+seceon make a config file with this:
+Host Shamim Hossain github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_ed25519_Shamim Hossain
+
+#personal
+
+Host shamim0183 github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_ed25519_shamim0183
